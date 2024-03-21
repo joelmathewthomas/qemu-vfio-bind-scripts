@@ -4,7 +4,7 @@ GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
 GRUB_DISTRIBUTOR="Arch"
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 modeset=1 intel_iommu=on iommu=pt vfio-pci.ids=10de:25a0,10de:2291"
-GRUB_CMDLINE_LINUX="cryptdevice=UUID=fe52f7b7-20ab-4612-a773-9ef4f818ce1e:archroot root=/dev/mapper/archroot"
+GRUB_CMDLINE_LINUX=""
 
 # Preload both GPT and MBR modules so that they are not missed
 GRUB_PRELOAD_MODULES="part_gpt part_msdos"
